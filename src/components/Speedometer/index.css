@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #07080c;
+  color: whitesmoke;
+  padding: 22px;
+  background-size: cover;
+}
+.heading {
+  font-family: 'Roboto';
+  font-style: italic;
+  text-align: center;
+  max-width: 70%;
+}
+.image {
+  max-width: 70%;
+}
+.head2 {
+  font-weight: 500;
+  font-size: 24px;
+  max-width: 70%;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+/* btn conatiner */
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 70%;
+}
+
+button {
+  border-radius: 5px;
+
+  height: 27px;
+
+  font-size: 14px;
+
+  margin: 7px;
+
+  cursor: pointer;
+}
+.accelarate-btn {
+  border-width: 0px;
+  background-color: green;
+  color: white;
+  font-weight: 500;
+}
+.brake-btn {
+  border: 2.4px solid #94a3b8;
+  font-weight: 500;
+  color: #94a3b8;
+  background-color: transparent;
+}
+@media (min-width: 992px) {
+  button {
+    height: 37px;
+    font-size: 19px;
+  }
+  .accelarate-btn {
+    background-image: linear-gradient(rgb(54, 88, 54), #12421e);
+  }
+}
